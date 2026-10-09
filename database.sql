@@ -32,7 +32,8 @@ CREATE TABLE IF NOT EXISTS `artikel` (
 -- Dumping data for table  db_companyprofile_nazril.artikel: ~2 rows (approximately)
 INSERT INTO `artikel` (`Id`, `Judul`, `Isi`, `Tanggal`, `Link`, `Image`) VALUES
 	(1, 'Kompas.com', 'arikel yang membahas berita di indonesia', '2026-10-08', 'https://kompas.com', 'kompas.png'),
-	(2, 'Detik.com', 'arikel yang membahas berita di indonesia', '2026-10-09', 'https://detik.com', 'detik.png');
+	(2, 'Detik.com', 'arikel yang membahas berita di indonesia', '2026-10-09', 'https://detik.com', 'detik.png'),
+	(3, 'Liputan6.com', 'arikel yang membahas berita di indonesia', '2026-10-10', 'https://liputan6.com', 'liputan6.png');
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
